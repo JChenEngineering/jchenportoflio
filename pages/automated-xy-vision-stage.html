@@ -25,8 +25,17 @@
          <section class="automated-xy-vision-stage">
             <div class="container">
                 <h2><b>Automated XY Vision Stage</b></h2>
-            
+
+            <div class="automated-xy-vision-stage-images">            
             </div>
+
+            <p>Often, visual inspections imply subjectivity and human error. The results of an inspection depends on perception, experience, and judgement. To eliminate these factors, I designed an automated inspect machine to look for defects in the potting of electical connectors. The system is composed of a vision camera that looks for defects larger than a certain specfication, and an XY stage that moves a tray of connectors, centering each part under the vision camera. The system is controlled by a PLC to determine when the servos drive the stage, and when the camera should trigger.</p>
+            <br><h2>Overview of Components</h2>
+            <p><b>Vision System:</b> The Keyence VS Series uses a 3.2 megapixel camera to identify flaws in the epoxy potting.</p>
+            <p><b>XY Stage:</b> The XY stage consists of two linear actuators, each driven by a servo motor. The two linear actuators are mounted perpendicularly, and a 3D printed tray nest is mounted on the top carrier.</p>
+            <p><b>Tray Nest:</b> The tray nest holds one tray of parts at a time, toleranced to a universal size that all trays share.</p>
+            <p><b>PLC:</b> The PLC controls the servos and the camera, and is programmed to move the stage in a specific pattern, triggering the camera at each part.</p>
+
         </section>
 
         <footer>
